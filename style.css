@@ -1,0 +1,26 @@
+/* zero out the margins, ensure everything's centered*/
+body {
+  margin: 0px;
+  align-items: center;
+}
+
+/* ensure everything's aligned vertically */
+
+body, fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+/* margins for making things look nicer */
+form {
+  margin-top: 2rem;
+}
+
+label, .btn {
+  margin-top: 1rem;
+}
+
+/* moves the submit button to the right */
+.btn {
+  float: right;
+}
